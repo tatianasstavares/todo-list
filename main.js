@@ -14,5 +14,7 @@ components.forEach(element => {
   app.append(element)
 })
 
+document.addEventListener('taskChanged', (e)=>renderTaskList)
+
 
 
